@@ -62,7 +62,7 @@ def main():
         else:
           autoc.submit(autocr2,firstn,lastn,passw)
        
-proxi=["N"]
+proxi=["Y"]
 proxyi=open("prox.txt","r").read().splitlines()
 def autocr(firstn,lastn,passw):
   global loop, ok
